@@ -352,7 +352,7 @@
 
                     width = item.outerWidth();
 
-                    if ( settings.spacing !== 0 ) {
+                    if ( settings.spacing !== 0 && _items.length > 1) {
                         item.css('margin-right', ( width * settings.spacing ) + 'px');
                     }
 
